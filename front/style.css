@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#section1{
+    width: 360px;
+    height: 760px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+#section2{
+    width: 360px;
+    height: 80px;
+    background-color: #FAD02C;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333652;
+    box-shadow: 2px 2px 2px #333652;
+}
+h1{
+    font-size:xx-large;
+    
+}
+#section3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div1{
+    width: 150px;
+    height: 120px;
+    border: 1px solid black;
+    margin: 15px;
+    background-color: #333652;
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+    padding: 0px;
+    box-shadow: 2px 2px 2px #333652;
+}
+.div2{
+    height: 270px;
+    width: 130px;
+    border: 1px solid black;
+    margin: 15px;
+    background-color: #333652;
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+    padding: 0px;
+    box-shadow: 2px 2px 2px #333652;
+}
+.divFlex{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.img1{
+    width: 150px;
+    height: 100px;
+    margin: 0px;
+}
+.img2{
+    width: 130px;
+    height: 250px;
+    margin: 0px;
+}
+.like{
+    width: 1vw;
+    align-self: flex-end;
+    padding: 0px;
+    margin: opx;
+}
+.div4{
+    display: flex;
+    justify-content: end;  
+}
+#section4{
+    width: 270px;
+    height: 110px;
+    background-color: #9a9a9a;
+    margin-left: 45px;
+   margin-top: 15px;
+   margin-bottom: 15px;
+}
+.divColuna{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#footer{
+    width: 360px;
+    height: 80px;
+    background-color: #FAD02C;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imgFooter{
+    width: 50px;
+   
+}
